@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo Mono", monospace, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #98d8aa;
+}
+
+.result {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+@import "./container.scss";
+@import "./countdown.scss";
